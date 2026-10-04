@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "verified_at": "2026-10-04T08:37:04.890929+00:00",
+  "python_tests": {
+    "passed": 43
+  },
+  "client_lifecycle_tests": {
+    "passed": 5,
+    "mode": "mocked room and microphone"
+  },
+  "text_scenarios": {
+    "passed": 26,
+    "total": 26,
+    "planner": "rules"
+  },
+  "browser_checks": [
+    "Voice Studio missing-credential state",
+    "SDK loaded without console errors",
+    "offline evaluation run",
+    "saved-run comparison: 26 unchanged"
+  ],
+  "not_verified": [
+    "live microphone audio",
+    "provider credentials",
+    "real STT/TTS quality",
+    "live Gemini performance",
+    "GitHub-hosted CI"
+  ]
+}
